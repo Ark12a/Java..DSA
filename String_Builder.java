@@ -12,5 +12,8 @@ public class String_Build{
         sb.insert(0,'P'); //insert char at 0th Position 
         //Sanka --->  PSanka
         System.out.println(sb);
+
+        sb.delete(2,4);
+        System.out.println(sb);
     }
 }
