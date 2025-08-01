@@ -13,7 +13,10 @@ public class String_Build{
         //Sanka --->  PSanka
         System.out.println(sb);
 
-        sb.delete(2,4);
+        sb.delete(2,4); // delete element from index 2 & 3
+        System.out.println(sb);
+
+        sb.append("G"); // adds a new element at last
         System.out.println(sb);
     }
 }
