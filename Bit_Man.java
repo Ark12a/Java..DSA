@@ -4,7 +4,7 @@ public class Bit_Man{
         int pos=2;
         int bm = 1<<pos;
         if((bm & n)==0){
-            System.out.println("Bit is zero";
+            System.out.println("Bit is zero");
         }
         else{
             System.out.println("Bit is one");
