@@ -43,7 +43,8 @@ public class Bit_Man{
         }
         else{
             //operation 1 : set bit
-            
+            int newNumber3= bm4 | n4;
+            System.out.println(newNumber3);
         }
     }
 }
