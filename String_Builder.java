@@ -1,4 +1,4 @@
-public class String_Build{
+public class String_Builder{
     public static void main(String []args){
         StringBuilder sb = new StringBuilder("Tanka");
         System.out.println(sb);//prints StringBuilder String

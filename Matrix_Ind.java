@@ -23,7 +23,7 @@ public class Matrix_Ind{
             for(j=0;j<c;j++){
                 // to search mat[i][j]==x or not 
                 if(mat[i][j]==x){
-                    System.out.println(x+" is present at indices : "+i+" & "+j);
+                    System.out.println(x+" is present at indices : "+i+" "+j);
                 }
             }
         }

@@ -1,5 +1,5 @@
 import java.util.*;
-public class String_Build{
+public class string_pali{
     public static void main(String []args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a word");
@@ -16,11 +16,11 @@ public class String_Build{
             sb.setCharAt(b,fchar);
         }
         System.out.println(sb);
-        // if(sb==sv){
-        //     System.out.println("Palindrome String");
-        // }
-        // else{
-        //     System.out.println("Not a Palindrom String");
-        // }
+        if(sb.equals(sv)){
+            System.out.println("Palindrome String");
+        }
+        else{
+            System.out.println("Not a Palindrom String");
+        }
     }
 }
